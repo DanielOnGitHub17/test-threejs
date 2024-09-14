@@ -1,2 +1,3 @@
 .vscode/tasks.json
 add_node.bat
+node_modules
