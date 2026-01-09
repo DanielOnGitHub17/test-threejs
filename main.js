@@ -23,7 +23,7 @@ scene.add( light );
 const loader = new GLTFLoader();
 let obj = {}
 
-loader.load( "./public/arrow.glb", function ( gltf ) {
+loader.load( "./man-ball.glb", function ( gltf ) {
     console.log("Loaded")
     let man = gltf.scene;
     obj.man = man;
